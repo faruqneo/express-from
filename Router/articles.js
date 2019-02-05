@@ -37,9 +37,9 @@ router.get('/add',function(req, res){
 router.route('/newarticles')
 
 //check for PUT method
-        .put(function(req, res){
-            res.render('restricted')
-        })
+    .put(function(req, res){
+        res.render('restricted')
+    })
 
 //check for GET method
     .get(function(req, res){
